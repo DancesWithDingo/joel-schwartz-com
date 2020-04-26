@@ -5,15 +5,18 @@ layout: default
 <h1>Published Books</h1>
 
 <ul class="books">
-    {% for book in site.data.menu.books %}
-    <li>
+    {% for book in site.data.books %}
+    <li class="document">
         <a href="{{ book.link }}" alt="Cover art">
             <img class="small-cover" src="{{ book.cover }}" alt="Cover: {{ book.cover }}" style="float: left;"/>
         </a>
         <a href="{{ book.link }}">
-            <h3>{{ book.title }} {{ book.subtitle }}</h3>
+            <h3 class="title">
+                {{ item.title }}
+                {{ item.subtitle }}
+            </h3>
         </a>
-        <div>{{ book.summary }}</div>
+        <p class="synopsis">{{ book.summary }}</p>
         <div style="clear: both;"></div>
     </li>
     {% endfor %}

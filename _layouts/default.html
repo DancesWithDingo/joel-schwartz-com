@@ -20,7 +20,7 @@
     <div id="header">
       <nav>
         <ul>
-        {% assign pages = site.data.menu.pages %}
+        {% assign pages = site.data.pages %}
           {% for page in pages %}
             <li><a href="{{ page.link }}">{{ page.title }}</a></li>
           {% endfor %}
@@ -35,8 +35,9 @@
           <p>{{ site.description | default: site.github.project_tagline }}</p>
           <hr>
         </div>
-
-        {{ content }}
+        <div id="content">
+          {{ content }}
+        </div>
 
       </section>
 

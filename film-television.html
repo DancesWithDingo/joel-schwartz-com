@@ -4,17 +4,25 @@ layout: default
 
 <h1>Film & Television</h1>
 
-<ul class="film-tv">
-    {% for production in site.data.menu.film-television %}
-    <li>
-        <h3>{{ production.title }} ({{ production.year }})</h3>
-        <h4>{{ production.role }}</h4>
-        {% if production.synopsis %}
-        <div>{{ production.synopsis }}</div>
+<ul class="documents">
+    {% for item in site.data.film-television %}
+    <li class="document">
+        <h3 class="title">
+            {{ item.title }}
+            {% if item.subtitle %}
+            – {{ item.subtitle }}
+            {% endif %}
+            {% if item.year %}
+            ({{ item.year }})
+            {% endif %}
+        </h3>
+        {% if item.role %}
+        <h4 class="role">{{ item.role }}</h4>
         {% endif %}
+        <p class="synopsis">{{ item.synopsis }}</p>
         <ul class="details">
-            {% for detail in production.details %}
-            <li>{{ detail }}</li>
+            {% for detail in item.details %}
+            <li class="detail">{{ detail | markdownify }}</li>
             {% endfor %}
         </ul>
     </li>

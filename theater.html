@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<h1>Travel Writing</h1>
+<h1>Theater</h1>
 
 <ul class="documents">
-    {% for item in site.data.travel-writing %}
+    {% for item in site.data.theater %}
     <li class="document">
         <h3 class="title">
             {{ item.title }}
@@ -13,7 +13,7 @@ layout: default
         </h3>
         {% if item.synopsis %}
         <p class="synopsis">{{ item.synopsis }}</p>
-        {% endif %}        
+        {% endif %}
         <ul class="details">
             {% for detail in item.details %}
             <li class="detail">{{ detail | markdownify }}</li>
@@ -22,4 +22,3 @@ layout: default
     </li>
     {% endfor %}
 </ul>
-

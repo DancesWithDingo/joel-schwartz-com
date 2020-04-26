@@ -1,16 +1,19 @@
   - title: Rain Forest Reverie
     synopsis: Getting away from it all on a remote Alaskan island.
-    periodical: "**Los Angeles Times**, February 1994"
+    details: "**Los Angeles Times**, February 1994"
 
   - title: In Search of the Alaska Wilderness
     synopsis: Four days with a buddy in a wilderness cabin on Manzanita Lake.
-    periodical: "**Northwest Parks & Wildlife Magazine**, July 1994"
+    details:
+      - "**Northwest Parks & Wildlife Magazine**, July 1994"
 
   - title: "Bali: Artistry in Shangri-La"
-    subtitle: "The performing arts of Bali: legong, wayang kulit, keçak and gamelan"
-    periodical: "**Voyageur Magazine**, (Radisson Hotels), June-July 1996"
+    subtitle: "– the performing arts of Bali: legong, wayang kulit, keçak and gamelan"
+    details:
+      - "**Voyageur Magazine**, (Radisson Hotels), June-July 1996"
   
   - title: "Into Shanghai"
     subtitle: An Intimate Travel Journal
-    ssynopsis: A gay man’s journeys in Shanghai before it underwent its building boom.
-    periodical: "**Christopher Street Magazine**, Issue 130, 1988"
+    synopsis: A gay man’s journeys in Shanghai in the 80s, a decade before the skyscrapers grew.
+    details:
+      - "**Christopher Street Magazine**, Issue 130, 1988"
