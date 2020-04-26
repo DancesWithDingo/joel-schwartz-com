@@ -1,3 +1,7 @@
+---
+permalink: /biography/
+---
+
 # Biography
 
 An award-winning playwright, screenwriter and travel writer, Joel Schwartz was born in New Jersey in 1945. He attended Harvard College where he earned a degree in Far Eastern Languages and Literatures in 1966. While at Harvard, he directed a dozen of his own plays. After graduation, Joel received a Shubert Fellowship during which he wrote Tilt (formerly untilted), later produced at the Mark Taper Forum in Los Angeles.
