@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<h1>Film & Television</h1>
+
+<ul class="film-tv">
+    {% for production in site.data.menu.film-television %}
+    <li>
+        <h3>{{ production.title }} ({{ production.year }})</h3>
+        <h4>{{ production.role }}</h4>
+        {% if production.synopsis %}
+        <div>{{ production.synopsis }}</div>
+        {% endif %}
+        <ul class="details">
+            {% for detail in production.details %}
+            <li>{{ detail }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>

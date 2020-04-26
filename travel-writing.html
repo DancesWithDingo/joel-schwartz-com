@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h1>Travel Writing</h1>
+
+<ul class="film-tv">
+    {% for article in site.data.travel-writing %}
+    <li>
+        <h3>{{ article.title }}</h3>
+        {% if article.subtitle %}
+        <h4>{{ article.subtitle }}</h4>
+        {% endif %}
+        {% if article.synopsis %}
+        <div>{{ article.synopsis }}</div>
+        {% endif %}
+        <div>{{ article.periodical | markdownify }}</div>
+    </li>
+    {% endfor %}
+</ul>

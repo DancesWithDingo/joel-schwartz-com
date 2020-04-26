@@ -1,0 +1,81 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+h1 + h2 {
+  font-size: large;
+}
+
+#header nav {
+  background-color: transparent;
+
+  li {
+    a {
+      color: white;
+      border: 0;
+      background: transparent;
+      border-radius: 0;
+      box-shadow: none;
+
+      &:hover {
+        color: silver;
+        background: none;
+        background-color: transparent;
+        border: 0;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+img {
+  width: 30%;
+  float: left;
+  padding: 0 20px 20px 0;
+
+  &.cover {
+    width: 30%;
+    float: right;
+    padding: 0 0 20px 20px;
+  }
+
+  &.small-cover {
+    width: auto;
+    height: 160px;
+  }
+}
+
+ul.books, ul.plays, ul.film-tv, ul.performances, ul.details {
+  list-style-image: none;
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    margin: 0 0 0em;
+    padding: 1em 0 1em;
+  }
+}
+
+ul.performances, ul.details {
+  list-style-type: disc;
+  margin: 0;
+  padding: 0 2em 0;
+
+  li {
+    margin: 2px 0;
+    padding: 0 0em 0;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+ul.film-tv {
+  li {
+    h3, h4 {
+      margin: 0;
+    }
+  }
+}

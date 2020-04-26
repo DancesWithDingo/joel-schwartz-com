@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<h1>Plays</h1>
+
+<ul class="plays">
+    {% for play in site.data.menu.plays %}
+    <li>
+        <h3>{{ play.title }}</h3>
+        <div>{{ play.synopsis }}</div>
+        <ul class="performances">
+            {% for performance in play.performances %}
+            <li>{{ performance | markdownify }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
