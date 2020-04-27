@@ -17,30 +17,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
   <body>
-    <div id="header">
-      <nav>
-        <ul>
-        {% assign pages = site.data.pages %}
-          {% for page in pages %}
-            <li><a href="{{ page.link }}">{{ page.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </div>
-
     <div class="wrapper">
       <section>
         <div id="title">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
-          <hr>
         </div>
+
+        <div id="header">
+          {% include navigation.html %}
+        </div>
+    
         <div id="content">
           {{ content }}
         </div>
-
       </section>
-
     </div>
 
     {% if site.google_analytics %}

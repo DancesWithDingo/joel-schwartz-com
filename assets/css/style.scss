@@ -3,28 +3,51 @@
 
 @import "{{ site.theme }}";
 
-#header nav {
-  background-color: transparent;
+#title {
+  padding-top: 2em;
+}
 
-  ul {
-    text-align: center;
-  }
+#header {
+  z-index: 0;
+  left: auto;
+  top: auto;
+  width: auto;
+  position: relative;
+  background: transparent;
+  padding: 0;
+  border-bottom-width: 0px;
 
-  li {
-    a {
-      color: white;
-      border: 0;
-      background: transparent;
-      border-radius: 0;
-      box-shadow: none;
+  nav {
+    background: transparent;
+    padding: 0;
 
-      &:hover {
-        color: silver;
-        background: none;
-        background-color: transparent;
-        border: 0;
-        box-shadow: none;
+    ul {
+      text-align: center;
+      height: auto;
+
+      li {
+        a {
+          color: white;
+          border: 0;
+          background: transparent;
+          border-radius: 0;
+          box-shadow: none;
+          margin: 0;
+          padding: 10px 12px;
+  
+          &:hover {
+            color: silver;
+            background: none;
+            background-color: transparent;
+            border: 0;
+            box-shadow: none;
+          }
+        }
       }
+    }
+
+    hr {
+      margin: 0;
     }
   }
 }
@@ -47,17 +70,25 @@ img {
 }
 
 #content {
+  margin-top: 1em;
+
   h1 {
     margin: 0 0 1em;
   }
   
   p {
     font-size: 16px;
+    text-align: justify;
   }
 }
 
-section #title {
-  margin: 0 0 1em;
+.wrapper section {
+  margin: 2em 0 0;
+  padding: 0;
+
+  #title {
+    margin: 0;
+  }
 }
 
 .document {
@@ -110,32 +141,5 @@ ul {
   list-style-image: none;
   list-style-type: none;
   padding: 0;
-
-  // li {
-  //   margin: 0 0 0em;
-  //   padding: 1em 0 1em;
-  //   margin-block-start: 0;
-  //   margin-block-end: 0;
-  // }
+  margin: 0;
 }
-//   // &.details {
-//   //   list-style-type: disc;
-//   //   margin: 0;
-//   //   padding: 0 2em 0;
-
-//   //   li {
-//   //     // margin: 2px 0;
-//   //     padding: 0;
-//   //     margin-block-start: 0;
-//   //     margin-block-end: 0;
-//   //   }
-//   // }
-
-//   &.film-tv {
-//     li {
-//       h3, h4 {
-//         margin: 0;
-//       }
-//     }
-//   }
-// }
