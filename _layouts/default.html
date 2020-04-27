@@ -17,32 +17,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
   <body>
-    <div class="wrapper">
-      <section>
-        <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-        </div>
+    <div class="page">
+      <section id="page-header">
+        {% include heading.html %}
+      </section>
 
-        <div id="header">
-          {% include navigation.html %}
-        </div>
-    
-        <div id="content">
-          {{ content }}
-        </div>
+      <section id="navigation">
+        {% include navigation.html %}
+      </section>
+
+      <section id="page-content">
+        {{ content }}
+      </section>
+
+      <section id="page-footer">
+        {% include footer.html %}
       </section>
     </div>
 
     {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
+    {% include google-analytics.html %}
     {% endif %}
   </body>
 </html>
