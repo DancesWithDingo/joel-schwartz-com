@@ -18,8 +18,7 @@ $font-family-light: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-se
 @import "{{ site.theme }}";
 
 body {
-  padding:0px 0 20px 0px;
-  margin: 0px;
+  margin: 1em 2em;
   font: $font-family-regular;
   color: $text-color;
   font-weight: normal;
@@ -78,7 +77,6 @@ ul {
   margin: 0;
 }
 
-
 .page {
   max-width: 650px;
   margin: 0 auto;
@@ -98,7 +96,7 @@ ul {
 }
 
 #navigation {
-  margin: 2em 0 0;
+  margin: 2em 0;
 
   nav {
     ul {
@@ -131,8 +129,6 @@ ul {
 }
 
 #page-content {
-  margin-top: 1em;
-
   h1 {
     margin: 0 0 1em;
   }
@@ -200,9 +196,35 @@ ul {
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 480px) {
+  nav {
+    display: block;
+  }
+
+  #navigation nav ul li a {
+    padding: 10px 2px;
+  }
+
+  #page-content p {
+    text-align: inherit;
+  }
+
+  .secondary-link {
+    display: none!important;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  body {
+    margin: 1em;
+  }
+
   #navigation nav ul li a {
     padding: 10px 6px;
+  }
+
+  #page-content p {
+    text-align: inherit!important;
   }
 }
 

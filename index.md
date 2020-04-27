@@ -8,4 +8,8 @@ An award-winning playwright, screenwriter, travel writer and novelist, **Joel Sc
 
 After Joel retired he saw his first novel published, ***[The Extraordinary Pupfish of Calaveras County](/books/extraordinary-pupfish)***, which received a 5-star review from the Midwest Book Review. His new book, [***A Daoist Journey into China: journal of a voyage into the interior***](/books/daoist-journey), was published in 2012.
 
-In addition to Joel’s life as a writer, he worked odd jobs from publishing to pushing mystical oils. Co-founding and serving as first executive director of Los Angeles Youth Network, he worked with homeless youth for thirty years, helping to craft the federal Runaway and Homeless Youth Act and ***Safe Choices***, an HIV care and prevention manual for Health & Human Services. He was an early advocate for long-term services for street kids, from whom he learned first-hand about the angst and issues of ***The Extraordinary Pupfish of Calaveras County***.
+In addition to Joel’s life as a writer, he worked odd jobs from publishing to pushing mystical oils. Co-founding and serving as first executive director of Los Angeles Youth Network, he worked with homeless youth for thirty years, helping to craft the federal Runaway and Homeless Youth Act and ***Safe Choices***, an HIV care and prevention manual for the United States Department of Health & Human Services. He was an early advocate for long-term services for street kids, from whom he learned first-hand about the angst and issues of ***The Extraordinary Pupfish of Calaveras County***.
+
+<div class="secondary">
+    <h4 href="/biography"><a>See full biography here</a></h4>
+</div>

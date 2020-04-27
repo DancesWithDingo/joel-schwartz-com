@@ -1,9 +1,8 @@
 <nav>
     <hr>
     <ul>
-      {% assign pages = site.data.pages %}
-      {% for page in pages %}
-        <li><a href="{{ page.link }}">{{ page.title }}</a></li>
+      {% for page in site.data.pages %}
+        <li{% if page.hide-for-phone %} class="secondary-link"{% endif %}><a href="{{ page.link }}">{{ page.title }}</a></li>
       {% endfor %}
     </ul>
     <hr>

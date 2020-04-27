@@ -15,3 +15,4 @@
 
   - title: Biography
     link: /biography/
+    hide-for-phone: true;
