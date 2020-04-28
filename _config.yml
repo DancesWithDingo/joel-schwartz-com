@@ -3,7 +3,7 @@ title: Joel Schwartz
 email: contact@joel-schartz.com
 description: author / playwright
 baseurl: ""
-url: ""
+url: "https://git.joel-schwartz.com"
 
 theme: jekyll-theme-midnight
 plugins:

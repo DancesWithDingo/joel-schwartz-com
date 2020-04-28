@@ -1,10 +1,9 @@
 <nav>
     <hr>
     <ul>
-      {% assign pages = site.page-list | sort: "index" %} 
-      {% for pg in pages %}
+      {% assign pages = site.page-list | sort: "index" %}{% for pg in pages %}
       <li{% if pg.hide-for-phone %} class="secondary-link"{% endif %}>
-        <a href="{{ pg.link }}" class="{% if page.url == pg.link %}selected{% endif %}">{{ pg.title }}</a>
+        <a href="{{ pg.permalink }}"{% if page.url == pg.permalink %} class="selected"{% endif %}>{{ pg.title }}</a>
       </li>
       {% endfor %}
     </ul>

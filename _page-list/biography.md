@@ -3,6 +3,7 @@ layout: default
 title: Biography
 permalink: /biography/
 index: 5
+hide-for-phone: true
 ---
 
 # Biography

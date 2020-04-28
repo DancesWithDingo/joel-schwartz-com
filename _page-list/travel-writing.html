@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Travel&emsp;Writing
+title: Travel&ensp;Writing
 permalink: /travel-writing/
 index: 4
 ---
@@ -10,10 +10,7 @@ index: 4
 <ul class="documents">
     {% for item in site.data.travel-writing %}
     <li class="document">
-        <h3 class="title">
-            {{ item.title }}
-            {{ item.subtitle }}
-        </h3>
+        <h3 class="title">{{ item.title }} {{ item.subtitle }}</h3>
         {% if item.synopsis %}
         <p class="synopsis">{{ item.synopsis }}</p>
         {% endif %}        
