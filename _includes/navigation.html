@@ -1,7 +1,7 @@
 <nav>
     <hr>
     <ul>
-      {% assign pages = site.data.pages | sort: "index" %} 
+      {% assign pages = site.page-list | sort: "index" %} 
       {% for pg in pages %}
       <li{% if pg.hide-for-phone %} class="secondary-link"{% endif %}>
         <a href="{{ pg.link }}" class="{% if page.url == pg.link %}selected{% endif %}">{{ pg.title }}</a>

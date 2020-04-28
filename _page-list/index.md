@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Home
+permalink: /
+index: 0
 ---
 
 ![Joel Schwartz (photo: Laurie York)](/assets/images/head-shot.jpg)

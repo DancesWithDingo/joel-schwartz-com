@@ -9,7 +9,9 @@ theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
-show_downloads: false
+collections:
+  page-list:
+    output: true
 
 exclude:
   - .sass-cache/

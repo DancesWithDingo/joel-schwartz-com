@@ -1,5 +1,8 @@
 ---
+layout: default
+title: Biography
 permalink: /biography/
+index: 5
 ---
 
 # Biography

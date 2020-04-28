@@ -1,26 +1,22 @@
 ---
 layout: default
-permalink: /film-television/
+title: Travel&emsp;Writing
+permalink: /travel-writing/
+index: 4
 ---
 
-<h1>Film & Television</h1>
+<h1>Travel Writing</h1>
 
 <ul class="documents">
-    {% for item in site.data.film-television %}
+    {% for item in site.data.travel-writing %}
     <li class="document">
         <h3 class="title">
             {{ item.title }}
-            {% if item.subtitle %}
-            – {{ item.subtitle }}
-            {% endif %}
-            {% if item.year %}
-            ({{ item.year }})
-            {% endif %}
+            {{ item.subtitle }}
         </h3>
-        {% if item.role %}
-        <h4 class="role">{{ item.role }}</h4>
-        {% endif %}
+        {% if item.synopsis %}
         <p class="synopsis">{{ item.synopsis }}</p>
+        {% endif %}        
         <ul class="details">
             {% for detail in item.details %}
             <li class="detail">{{ detail | markdownify }}</li>
@@ -29,3 +25,4 @@ permalink: /film-television/
     </li>
     {% endfor %}
 </ul>
+
