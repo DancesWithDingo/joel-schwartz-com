@@ -1,18 +1,24 @@
   - title: Home
     link: /
+    index: 0
 
   - title: Books
     link: /books/
+    index: 1
 
   - title: Theater
     link: /theater/
+    index: 2
 
   - title: Film & Television
     link: /film-television/
+    index: 3
 
   - title: Travel Writing
     link: /travel-writing/
+    index: 4
 
   - title: Biography
     link: /biography/
+    index: 5
     hide-for-phone: true;

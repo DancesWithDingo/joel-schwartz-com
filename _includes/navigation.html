@@ -1,7 +1,8 @@
 <nav>
     <hr>
     <ul>
-      {% for page in site.data.pages %}
+      {% assign pages = site.data.pages | sort: "index" %} 
+      {% for page in pages %}
         <li{% if page.hide-for-phone %} class="secondary-link"{% endif %}><a href="{{ page.link }}">{{ page.title }}</a></li>
       {% endfor %}
     </ul>
