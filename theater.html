@@ -8,10 +8,7 @@ permalink: /theater/
 <ul class="documents">
     {% for item in site.data.theater %}
     <li class="document">
-        <h3 class="title">
-            {{ item.title }}
-            {{ item.subtitle }}
-        </h3>
+        <h3 class="title">{{ item.title }} {{ item.subtitle }}</h3>
         {% if item.synopsis %}
         <p class="synopsis">{{ item.synopsis }}</p>
         {% endif %}
