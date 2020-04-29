@@ -13,6 +13,8 @@ collections:
   page-list:
     output: true
 
+google_analytics: true
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/
