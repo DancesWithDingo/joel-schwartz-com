@@ -5,7 +5,7 @@ layout: default
 {: .book-title}
 ### by Joel Schwartz
 
-#### Get the book: [amazon.com](amazon.com/Daoist-Journey-into-China-interior/dp/1470094894){: target="_blank" rel="noopener noreferrer"}
+#### Get the book: [amazon.com](https://www.amazon.com/Daoist-Journey-into-China-interior/dp/1470094894){: target="_blank" rel="noopener noreferrer"}
 
 ![Cover: The Extraordinary Pupfish of Calaveras County"](/assets/images/extraordinary-pupfish.jpg){: .cover}
 
