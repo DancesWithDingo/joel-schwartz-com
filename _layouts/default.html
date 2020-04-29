@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    <title>Joel Schwartz | {{ page.title }}</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {% seo %}
@@ -27,20 +28,16 @@
       <section id="page-header">
         {% include header.html %}
       </section>
-
       <section id="navigation">
         {% include navigation.html %}
       </section>
-
       <section id="page-content">
         {{ content | smartify }}
       </section>
-
       <section id="page-footer">
         {% include footer.html %}
       </section>
     </div>
-
     {% if site.google_analytics %}
     {% include google-analytics.html %}
     {% endif %}
