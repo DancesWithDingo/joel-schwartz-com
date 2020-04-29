@@ -12,11 +12,9 @@ index: 3
     <li class="document">
         <h3 class="title">
             {{ item.title }}
-            {% if item.subtitle %}
-            – {{ item.subtitle }}
-            {% endif %}
+            {% if item.subtitle %} – {{ item.subtitle }}{% endif %}
             {% if item.year %}
-            ({{ item.year }})
+            <span class="year">({{ item.year }})</span>
             {% endif %}
         </h3>
         {% if item.role %}
