@@ -2,9 +2,12 @@
 layout: default
 ---
 # The Extraordinary Pupfish of Calaveras County
+{: .book-title}
 ### by Joel Schwartz
 
-<img class="cover" src="/assets/images/extraordinary-pupfish.jpg" alt="Cover: The Extraordinary Pupfish of Calaveras County"/>
+#### Get the book: [amazon.com](amazon.com/Daoist-Journey-into-China-interior/dp/1470094894){: target="_blank" rel="noopener noreferrer"}
+
+![Cover: The Extraordinary Pupfish of Calaveras County"](/assets/images/extraordinary-pupfish.jpg){: .cover}
 
 Out of rural California come two intertwined coming-of-age stories, an unwilling hero and an obstinate widow, who grapple with the hypocrisies of a twisted world.
 

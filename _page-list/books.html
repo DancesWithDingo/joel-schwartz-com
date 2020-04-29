@@ -10,7 +10,7 @@ index: 1
     <li class="document">
         <a href="{{ item.link }}"><img class="small-cover" src="{{ item.cover }}" alt="Cover: {{ item.cover }}"/></a>
         <h3 class="title">
-            <a href="{{ item.link }}">{{ item.title }}{% if item.subtitle %}{{ item.subtitle }}{% endif %}</a>
+            <a href="{{ item.link }}">{{ item.title }}{% if item.subtitle %}: {{ item.subtitle }}{% endif %}</a>
             <span class="year">({{ item.year }})</span> 
         </h3>
         <p class="synopsis">{{ item.summary }}</p>

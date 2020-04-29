@@ -3,8 +3,11 @@ layout: default
 ---
 
 # A Daoist Journey Into China:
-## journal of a voyage into the interior
+{: .book-title}
+# journal of a voyage into the interior
 ### by Joel Schwartz
+
+#### Get the book: [amazon.com](https://www.amazon.com/Daoist-Journey-into-China-interior/dp/1470094894){: target="_blank" rel="noopener noreferrer"}
 
 <img class="cover" src="/assets/images/daoist-journey.jpg" alt="Cover: A Daoist Journey Into China: journal of a voyage into the interior"/>
 
